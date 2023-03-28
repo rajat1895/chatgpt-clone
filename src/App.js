@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 const App = () => {
     const configuration = new Configuration({
-        apiKey: "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",
+        apiKey: "",
     });
 
     const openai = new OpenAIApi(configuration);
