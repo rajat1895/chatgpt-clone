@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 const App = () => {
     const configuration = new Configuration({
-        apiKey: "",
+        apiKey: "", //enter your api key here 
     });
 
     const openai = new OpenAIApi(configuration);
